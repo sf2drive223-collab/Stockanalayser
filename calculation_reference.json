@@ -1,0 +1,236 @@
+[
+  {
+    "args": [
+      100,
+      100,
+      110,
+      "Delivery"
+    ],
+    "result": {
+      "buyValue": 10000,
+      "sellValue": 11000,
+      "gross": 1000,
+      "charges": {
+        "Brokerage": 21,
+        "STT": 21,
+        "Exchange charges": 0.6237,
+        "SEBI fees": 0.020999999999999998,
+        "IPFT fees": 0.020999999999999998,
+        "Stamp duty": 1.4999999999999998,
+        "DP charges": 20,
+        "GST": 7.499826
+      },
+      "totalCharges": 71.665526,
+      "net": 928.334474
+    },
+    "breakEven": 100.7
+  },
+  {
+    "args": [
+      100,
+      100,
+      90,
+      "Intraday"
+    ],
+    "result": {
+      "buyValue": 10000,
+      "sellValue": 9000,
+      "gross": -1000,
+      "charges": {
+        "Brokerage": 19,
+        "STT": 2.25,
+        "Exchange charges": 0.5643,
+        "SEBI fees": 0.019,
+        "IPFT fees": 0.019,
+        "Stamp duty": 0.3,
+        "DP charges": 0,
+        "GST": 3.5284139999999993
+      },
+      "totalCharges": 25.680713999999995,
+      "net": -1025.680714
+    },
+    "breakEven": 100.28
+  },
+  {
+    "args": [
+      1,
+      1,
+      0,
+      "Delivery"
+    ],
+    "result": {
+      "buyValue": 1,
+      "sellValue": 0,
+      "gross": -1,
+      "charges": {
+        "Brokerage": 0.025,
+        "STT": 0.001,
+        "Exchange charges": 2.97e-05,
+        "SEBI fees": 1e-06,
+        "IPFT fees": 1e-06,
+        "Stamp duty": 0.00015,
+        "DP charges": 0,
+        "GST": 0.004505706000000001
+      },
+      "totalCharges": 0.030687406000000007,
+      "net": -1.030687406
+    },
+    "breakEven": 1.07
+  },
+  {
+    "args": [
+      1,
+      99,
+      100,
+      "Delivery"
+    ],
+    "result": {
+      "buyValue": 99,
+      "sellValue": 100,
+      "gross": 1,
+      "charges": {
+        "Brokerage": 4.975,
+        "STT": 0.199,
+        "Exchange charges": 0.0059103,
+        "SEBI fees": 0.00019899999999999999,
+        "IPFT fees": 0.00019899999999999999,
+        "Stamp duty": 0.014849999999999999,
+        "DP charges": 20,
+        "GST": 4.496635494
+      },
+      "totalCharges": 29.691793794,
+      "net": -28.691793794
+    },
+    "breakEven": 129.6
+  },
+  {
+    "args": [
+      1,
+      100,
+      99.99,
+      "Delivery"
+    ],
+    "result": {
+      "buyValue": 100,
+      "sellValue": 99.99,
+      "gross": -0.010000000000005116,
+      "charges": {
+        "Brokerage": 4.999750000000001,
+        "STT": 0.19999,
+        "Exchange charges": 0.005939703,
+        "SEBI fees": 0.00019999,
+        "IPFT fees": 0.00019999,
+        "Stamp duty": 0.015,
+        "DP charges": 0,
+        "GST": 0.90109614294
+      },
+      "totalCharges": 6.122175825939999,
+      "net": -6.1321758259400045
+    },
+    "breakEven": 130.66
+  },
+  {
+    "args": [
+      20,
+      99.99,
+      100,
+      "Intraday"
+    ],
+    "result": {
+      "buyValue": 1999.8,
+      "sellValue": 2000,
+      "gross": 0.20000000000004547,
+      "charges": {
+        "Brokerage": 7,
+        "STT": 0.5,
+        "Exchange charges": 0.11879406,
+        "SEBI fees": 0.0039998,
+        "IPFT fees": 0.0039998,
+        "Stamp duty": 0.059994,
+        "DP charges": 0,
+        "GST": 1.2828228588
+      },
+      "totalCharges": 8.9696105188,
+      "net": -8.769610518799954
+    },
+    "breakEven": 100.44
+  },
+  {
+    "args": [
+      20,
+      100,
+      100.01,
+      "Intraday"
+    ],
+    "result": {
+      "buyValue": 2000,
+      "sellValue": 2000.2,
+      "gross": 0.20000000000004547,
+      "charges": {
+        "Brokerage": 4.0001999999999995,
+        "STT": 0.50005,
+        "Exchange charges": 0.11880594,
+        "SEBI fees": 0.0040002,
+        "IPFT fees": 0.0040002,
+        "Stamp duty": 0.060000000000000005,
+        "DP charges": 0,
+        "GST": 0.7428611411999999
+      },
+      "totalCharges": 5.429917481199999,
+      "net": -5.229917481199953
+    },
+    "breakEven": 100.28
+  },
+  {
+    "args": [
+      1,
+      0.01,
+      0.02,
+      "Intraday"
+    ],
+    "result": {
+      "buyValue": 0.01,
+      "sellValue": 0.02,
+      "gross": 0.01,
+      "charges": {
+        "Brokerage": 0.00075,
+        "STT": 5e-06,
+        "Exchange charges": 8.91e-07,
+        "SEBI fees": 3e-08,
+        "IPFT fees": 3e-08,
+        "Stamp duty": 3.0000000000000004e-07,
+        "DP charges": 0,
+        "GST": 0.00013517118000000002
+      },
+      "totalCharges": 0.0008914221800000002,
+      "net": 0.00910857782
+    },
+    "breakEven": 0.02
+  },
+  {
+    "args": [
+      10000,
+      2500.75,
+      2600.2,
+      "Delivery"
+    ],
+    "result": {
+      "buyValue": 25007500,
+      "sellValue": 26002000,
+      "gross": 994500,
+      "charges": {
+        "Brokerage": 40,
+        "STT": 51009.5,
+        "Exchange charges": 1514.98215,
+        "SEBI fees": 51.009499999999996,
+        "IPFT fees": 51.009499999999996,
+        "Stamp duty": 3751.1249999999995,
+        "DP charges": 20,
+        "GST": 301.86020699999995
+      },
+      "totalCharges": 56739.486357,
+      "net": 937760.513643
+    },
+    "breakEven": 2506.33
+  }
+]

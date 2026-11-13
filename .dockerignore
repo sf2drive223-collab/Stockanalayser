@@ -1,0 +1,10 @@
+*
+!Dockerfile
+!requirements.txt
+!main.py
+!state.py
+!tools.py
+!portfolio.py
+!upstox.py
+!sectors.py
+!start.py
